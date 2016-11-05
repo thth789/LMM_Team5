@@ -26,7 +26,6 @@
 <link href="./css/bootstrap-iso.css" rel="stylesheet">
 <script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<div class="bootstrap-iso">
 
 <body>
 
