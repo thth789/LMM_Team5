@@ -1,11 +1,20 @@
-<%@ page  contentType="text/html; charset=UTF-8" %>
+<%@ page  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html> 
  <html>
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title></title>
+<link href="css/ddsmoothmenu.css"  rel="stylesheet" type="text/css" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="./css/bootstrap-iso.css" rel="stylesheet">
 
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/header.js"></script>
+<script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- 다운받은거 그거에 맞는 스타일시트도 써야   -->
+<script src="./js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/scripts.js"type="text/javascript" ></script>
 <script type="text/javascript">
 function btn_click(){
 	 pop=window.open('id_check.jsp','win1','scrollbars=yes,width=350,height=500');
@@ -31,14 +40,12 @@ function emailCheck(email){
 </script>
    
 </head>
-<link href="./css/bootstrap-iso.css" rel="stylesheet">
-  <script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
-  <!-- 다운받은거 그거에 맞는 스타일시트도 써야   -->
-  <script src="./js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
-  <script src="./js/scripts.js"type="text/javascript" ></script>
 
- <div class="bootstrap-iso">
 <body>
+<%@ include file="headerView.jsp" %>
+<section>
+ <div class="bootstrap-iso">
+
 <table  class="table table-striped " width="960" cellpadding="0" cellspacing="0" border="0" align="center">
 <tr>
 <td colspan="2">
@@ -47,7 +54,8 @@ function emailCheck(email){
 <p align="center"/>
 <table border="0" width="80%" height="80%"></table>
 <tr>
-	<td width="17%" bgcolor="#E0E0E0"><font size="+0"/> &nbsp;&nbsp;&nbsp;&nbsp; <em style="color:red">*</em>아이디</br>문자와 숫자를 조합하여 1~15자리로 만들어 주세요</td>
+	<td width="17%" bgcolor="#E0E0E0"><font size="+0"/> &nbsp;&nbsp;&nbsp;&nbsp; 
+	<em style="color:red">*</em>아이디</br>문자와 숫자를 조합하여 1~15자리로 만들어 주세요</td>
     <td>&nbsp;&nbsp;&nbsp; <input type="text" name ="MEMBER_ID" size="20" maxlength="15"/>
     &nbsp;&nbsp;&nbsp;<input type="button" name ="confirm_id"  value="중복확인" class="btn btn-success" onclick='btn_click()'/> 
      </td>
@@ -56,7 +64,7 @@ function emailCheck(email){
     <td align="center" colspan="2"> <font size="0"/>  &nbsp; </td>
 </tr>
 <tr> 
-  	<td bgcolor="#E0E0E0"><font size="+0"/>&nbsp;&nbsp;&nbsp;&nbsp; <em style="color:red">*</em>비밀번호</br>문자와 숫자를 조합하여 20자리 이하로 만들어 주세요</td>  
+  	<td bgcolor="#E0E0E0"><font size="+0"></font>&nbsp;&nbsp;&nbsp;&nbsp; <em style="color:red">*</em>비밀번호</br>문자와 숫자를 조합하여 20자리 이하로 만들어 주세요</td>  
   
     <td>&nbsp;&nbsp;&nbsp; <input type="password" name="MEMBER_PW" size="20" maxlength="20"/> </td>  
 </tr>
@@ -109,10 +117,10 @@ function emailCheck(email){
   
     <td>   <input class="check-all" name="favorite" type="checkbox" /><span>모든 분야</span><br/><hr/>
     &nbsp;&nbsp;&nbsp;   <input class="favorite" name="favorite" type="checkbox" value="humanities" />인문<br/>
-          &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="socialsciences" />사회<br />
-          &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="sciences" />과학<br />
-         &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="culture" />문화<br />
-         &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="etc" />기타<br /> 
+    &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="socialsciences" />사회<br />
+    &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="sciences" />과학<br />
+    &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="culture" />문화<br />
+    &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="etc" />기타<br /> 
     </td>
     </tr>  
     <tr> 
@@ -122,12 +130,14 @@ function emailCheck(email){
 </tr>
 
 
+
 </form>
 <!--회원가입-->
 </td>
 </tr>
 </table>
-</body>
 </div>
+</section>
+</body>
 </html>
  
