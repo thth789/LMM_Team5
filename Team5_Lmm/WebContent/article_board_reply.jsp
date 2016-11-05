@@ -13,7 +13,7 @@
   <div class="bootstrap-iso">
 <!-- <form name="delete_form" action="" method="get"> -->
 <body>
- 
+ <div class="bootstrap-iso">
 <!-- <form name="delete_form" action="" method="get"> -->
 <table border="1">
 <tr>
@@ -30,7 +30,7 @@
 
 <!-- </form> -->
 
-
+</div>
 </body>
 </div>
 </html>
