@@ -7,7 +7,7 @@
 
 
 </head>
- <link href="./css/bootstrap.css" rel="stylesheet">
+ <link href="./css/bootstrap-iso.css" rel="stylesheet">
   <script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 
   <div class="bootstrap-iso">
