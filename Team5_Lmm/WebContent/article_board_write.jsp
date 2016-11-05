@@ -26,8 +26,11 @@
 <div class="bootstrap-iso">
 
 <table class="table table-hover">
-	<tr align="center" valign="middle">
-		<td colspan="5">게시판 글 쓰기</td>
+	<tr align="left" valign="middle">
+		<td colspan="5"> <img alt="board" src="./img/boardlogo.jpg"> 
+<!-- 		<tt><font size="6">자유게시판</font></tt>  -->
+<!-- 		<img alt="line" src="./img/dotline_536.png"></br> -->
+		자유게시판 이용전에 <em style="color:red">공지 필독 바랍니다 </em></td>
     </tr>
     <tr>
 		<td style="font-size:12px" height="16"><div align="center">글쓴이&nbsp;&nbsp;&nbsp;</div></td>

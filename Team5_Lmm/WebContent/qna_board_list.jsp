@@ -34,11 +34,11 @@
 
 		<%@ include file="headerView.jsp" %>
 
-<section>
 		<div class="bootstrap-iso">
 			<!--게시판 리스트-->
-			<h2 align="center">QnA 게시판</h2>
-
+<!-- 			<h2 align="center">QnA 게시판</h2> -->
+  			<img alt="board" src="./img/qnalogo.jpg"> 
+ 
 
 			<table class="table  table-nonfluid  table-striped table-condensed"
 				width="50%" cellpadding="0" cellspacing="0" align="center">

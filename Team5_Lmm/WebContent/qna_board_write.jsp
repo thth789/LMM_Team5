@@ -23,9 +23,9 @@
 		<div class="bootstrap-iso">
 
 			<table class="table table-hover">
-				<tr align="center" valign="middle">
-					<td colspan="5">게시판 글 쓰기</td>
-				</tr>
+				<tr align="left" valign="middle">
+		<td colspan="5"> <img alt="board" src="./img/qnalogo.jpg">  </td>
+    </tr>
 				<tr>
 					<td style="font-size: 12px" height="16"><div align="center">글쓴이&nbsp;&nbsp;&nbsp;</div></td>
 					<td><input type="text" name="beard_name" size="10"

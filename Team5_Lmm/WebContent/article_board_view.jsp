@@ -23,20 +23,20 @@
 <div class="bootstrap-iso">
 
 <table class="table table-hover">
-	<tr align="center" valign="middle">
-		<td style="font-size:30px"  colspan="5" >게시판 글 보기</td>
+	<tr align="left" valign="middle">
+		<td colspan="5"> <img alt="board" src="./img/boardlogo.jpg">  </td>
     </tr>
     <tr>
-		<td style="font-size:20px" height="16"><div align="center">글쓴이&nbsp;&nbsp;&nbsp;</div></td>
+		<td style="font-size:15px" height="16"><div align="center">글쓴이&nbsp;&nbsp;&nbsp;</div></td>
 		<td><input type="text" name="beard_name" size="10" maxlength="10" value=""></td>
     </tr>
     
     <tr>
-		<td style="font-size:20px" height="16"><div align="center">제목&nbsp;&nbsp;&nbsp;</div></td>
+		<td style="font-size:15px" height="16"><div align="center">제목&nbsp;&nbsp;&nbsp;</div></td>
 		<td><input type="text" name="beard_title" size="50" maxlength="100" value=""></td>
     </tr>
   <tr>
-		<td style="font-size:20px" height="16"><div align="center">내용&nbsp;&nbsp;&nbsp;</div></td>
+		<td style="font-size:15px" height="16"><div align="center">내용&nbsp;&nbsp;&nbsp;</div></td>
 		<td><textarea name="board_content" cols="67" rows="15"></textarea></td>
         
     </tr> 
