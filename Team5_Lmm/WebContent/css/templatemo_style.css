@@ -367,10 +367,20 @@ a.header { display: block; font-weight: 700 }
 }
 #tabmenu dd{display:none;}
 #tabmenu dt:first-child+dd{display:block;}
-#templatemo_bottom div#point{
+#point{
 	position:relative;
-	top:9px;
-	left:140px;
+	
+	width:217px;
+	height:120px;
+	/* top:5px; */
+	left:700px;
+	padding: 10px;
+	
+}
+#point img{
+	position:relative;
+	bottom: 145px;
+	
 }
 
 
