@@ -1,18 +1,32 @@
-<%@ page  contentType="text/html; charset=UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
- <html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title></title>
-
+<title> watchView.jsp </title>
 <link href="css/ddsmoothmenu.css"  rel="stylesheet" type="text/css" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
 
-<link href="./css/bootstrap-iso.css" rel="stylesheet">
+
+
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/header.js"></script>
-<script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
-
+<script>
+	function viewLectureIntor(index) {
+		if (index == 1) {
+			$('#imgIntro1').attr('src', '/Common/v2/images/bt_01_on.png');
+			$('#LectureIntro1').css('display', 'block');
+			$('#imgIntro2').attr('src', '/Common/v2/images/bt_02.png');
+			$('#LectureIntro2').css('display', 'none');
+		} else {
+			$('#imgIntro1').attr('src', '/Common/v2/images/bt_01.png');
+			$('#LectureIntro1').css('display', 'none');
+			$('#imgIntro2').attr('src', '/Common/v2/images/bt_02_on.png');
+			$('#LectureIntro2').css('display', 'block');
+		}
+	}
+</script>
 <style type="text/css"> 
  
 
@@ -74,14 +88,20 @@ max-height:400;
 
 </style>
 
-
-
 </head>
+
 <body>
-		<%@ include file="headerView.jsp" %>
-		
-		
-	<div id="navi_new">
+<%@ include file="rightmenu.jsp" %> 
+<%@ include file="scrollmenu.jsp" %>
+
+	<%@ include file="headerView.jsp" %>
+<section>
+	<div id="watch">
+	<a style="font-size: 30px;">동영상 이름이름이름이름이름이름이름이름</a>
+	<hr>
+	<iframe width="960px" height="430px" src="https://www.youtube.com/embed/YCKKOvMgXFw"></iframe>
+	</div>
+		<div id="navi_new">
                     <p class="navitext"> <a href="/"><img src="http://image.snow.or.kr/front/images/icon/icon_navihome.gif" class="vam" alt="HOME" title="HOME" /> Home</a> 
                     <img src="./img/icon_naviarrow_blue.gif" class="vam" alt="" title="" /> 
                     <a href="/lecture/" class="vam">주제별강의</a> 
@@ -90,10 +110,7 @@ max-height:400;
                     <img src="./img/icon_naviarrow_blue.gif" class="vam" alt="" title="" /> 
                     <span><a href="biology">생물 Biology</a></span></p>
   	</div><br/>
-    <div>
-    <img src="http://attach.snow.or.kr/uploads/2016/11/01/161101_5818158ceb67c.png" class="img89" alt="에너지 준위도, 촉매, 그리고 반응 매커니즘" title="에너지 준위도, 촉매, 그리고 반응 매커니즘">
-            <br/> 
-    </div> 
+ 
 		    <DIV class="fr mt7" id="layerPos">
 		<DIV class="disin pr10">
 		<A  href="javascript:showLectutePopup('xmlMypageForm')"><IMG width="54" height="18"  title="북마크" alt="북마크" src="./img/ico_bookmark.png"></A></DIV> 
@@ -104,7 +121,7 @@ max-height:400;
 		</DIV>  
  <div class='topleft' > 
 		  <div class="tab_button_Area_v2">
-		                        <img src="./img/tab_menu1on.gif" alt="강의정보"">
+		                        <img src="./img/tab_menu1on.gif" alt="강의정보">
 		 </div>
 		 <div id="pagedivision1" class="body_Area">
 		                        <div class="body_button_Area">
@@ -263,9 +280,6 @@ max-height:400;
 		                    </DIV>
  
  </div>
-	     
- 
-
-
+</section>
 </body>
 </html>
