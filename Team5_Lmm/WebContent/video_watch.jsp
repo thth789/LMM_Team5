@@ -15,6 +15,17 @@
 
 <style type="text/css"> 
  
+
+ 
+td {
+     padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2
+    
+}
+  
+  
 div.topleft {
      margin:0 auto;
        position: absolute; 
@@ -39,18 +50,20 @@ max-height:400;
 div.bottomleft {
    margin:0 auto;
        position: absolute; 
-    top: 900px; 
+    top: 1000px; 
     left: 150px; 
     right: 0; 
     bottom: 0; 
   max-width:400;
 max-height:400; 
+    background-color: #f2f2f2;
+
 }
 
 div.bottomright {
  margin:0 auto;
        position: absolute; 
-     top: 900px; 
+     top: 1000px; 
     left: 700px; 
     right: 0; 
     bottom: 0;
@@ -116,8 +129,7 @@ max-height:400;
 		
 		                            <div class="open_close_btn">
 		                                <img src="./img/sub_tab_bt_more.png" class="expandNCollapseBtn c_pointer" alt="펼쳐보기" title="펼쳐보기">
-		                            </div>
-		
+		                            </div> 
 		                        </div> 
 		 
  </div>
@@ -140,6 +152,7 @@ max-height:400;
                         </SCRIPT>
  
  <div class= 'topright'>
+ 
   <table  width="500" >
                         <tr>
                             <td class="leftTitle"  width="70">강의자</td>
@@ -147,20 +160,12 @@ max-height:400;
                             <td class="rightInfo"><a href="/common/authsearch.html?sk=%EC%95%8C%EB%A0%89%EC%82%B0%EB%93%9C%EB%9D%BC+%ED%98%B8%EB%A1%9C%EB%B9%84%EC%B8%A0">
                             <span class="blue">알렉산드라 호로비츠</span></a></td>
                         </tr>
-                        <tr>
-                            <td colspan="2" class="dotLine"></td>
-                        </tr>
                         
-                        <tr>
-                            <td colspan="2" class="dotLine"></td>
-                        </tr>
                         <tr>
                             <td class="leftTitle">원본출처</td>
                             <td class="rightInfo"><a href="http://www.uctv.tv/shows/A-Dogs-World-with-Alexandra-Horowitz-Conversations-with-History-25112"  target = "_blank"  class="userlink"><span class="blue">http://www.uctv.tv/shows/A-Dogs-World-with-Alexandra-Horowitz-Conversations-with-History-25112</span></a></td>
                         </tr>
-                        <tr>
-                            <td colspan="2" class="dotLine"></td>
-                        </tr>
+                     
                         <tr>
                             <td class="leftTitle">등록자</td>
                             <td class="rightInfo"><div  class="userName"><a href="/mypage/13dnjstnrgus/"  ><span class="blue" style="">원숙현</span></a></div> </td>
@@ -175,17 +180,7 @@ max-height:400;
                             </td>
                         </tr>
 
-                        <tr>
-                            <td colspan="2" class="dotLine"></td>
-                        </tr>
                      
-                        <tr>
-                            <td colspan="2" class="dotLine"></td>
-                        </tr>
-                        
-                        <tr>
-                            <td colspan="2" class="dotLine"></td>
-                        </tr>
                     </table>    
                              <img src="./img/dotline_536.png" alt="" title="" class="vam" /> 
                                                
