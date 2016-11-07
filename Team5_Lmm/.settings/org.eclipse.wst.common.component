@@ -2,6 +2,7 @@
     <wb-module deploy-name="Team5_Lmm">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/jquery.bxslider/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="Team5_Lmm"/>
         <property name="java-output-path" value="/Team5_Lmm/build/classes"/>
     </wb-module>
